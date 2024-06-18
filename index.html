@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.botao-link {
+    width: 150px; 
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao-link:hover {
+    background-color: rgb(47, 51, 45);
+}
+</style>
+<script>
+    function redirecionarPagina(pagina) {
+    window.location.href = pagina;
+}
+</script>
+<body>
+    <h1>Portfólio: Ciência Da Computação</h1>
+    <button class="botao-link" onclick="redirecionarPagina('raciocinio.html')">Raciocinio Algoritmo</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('matlogica.html')">Logica matematica</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('filosofia.html')">Filosofia</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('criativa.html')">Experiencia Criativa</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('ciberfisico.html')">Sistemas Ciberfísicos</button><br>
+    <p></p>
+</body>
+</html>
